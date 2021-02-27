@@ -4,3 +4,6 @@ https://github.com/ScriptedDeveloper/roblox-multitool
 
 # How to use it?
 Just open main.py and enjoy!
+
+# What to expect from this
+It really depends on your luck. Sometimes you get a few empty groups in a half a hour, sometimes you only get one group in a hour.

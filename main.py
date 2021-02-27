@@ -1,9 +1,16 @@
-import random
-import time
-import string
-from requests import Session
-from colorama import Fore, init
-init(autoreset=True)
+try:
+    import random
+    import time
+    import string
+    from requests import Session
+    from colorama import Fore, init
+    init(autoreset=True)
+except ModuleNotFoundError:
+    from os import system
+    system('cmd /k "pip3 install random"')
+    system('cmd /k "pip3 install colorama"')
+    system('cmd /k "pip3 install requests"')
+
 
 req = Session()
 
@@ -29,6 +36,8 @@ class main():
             else:
                 pass
 
+
+        
 
 
 
